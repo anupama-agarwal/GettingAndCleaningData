@@ -1,0 +1,5 @@
+require(knitr)
+require(markdown)
+setwd("~/")
+knit("Analysis.Rmd", encoding="ISO8859-1")
+markdownToHTML("Analysis.md", "Analysis.html")
